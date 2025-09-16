@@ -1,0 +1,2 @@
+def run_ai():
+    print("🧠 Running AI pipeline... (placeholder for AI tasks)")
