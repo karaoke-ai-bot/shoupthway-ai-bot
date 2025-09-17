@@ -1,6 +1,18 @@
+# 🤖 Shoupthway AI Bot 🎤
+
+**EN:**  
+Shoupthway AI Bot is a personal AI Karaoke Project built with **FastAPI + Docker**.  
+It starts from "Hello World" and grows into a **full AI karaoke platform** with mic input, lyrics display, scoring, duet mode, and future social features.  
+
+**MM:**  
+Shoupthway AI Bot သည် ကိုယ်ပိုင် Karaoke AI Project ဖြစ်ပြီး **FastAPI + Docker** ဖြင့် တည်ဆောက်ထားသည်။  
+စတင်ချိန်တွင် "Hello World" API မှစပြီး၊ နောက်ပိုင်းတွင် **Mic Input, Lyrics Display, AI Scoring, Duet Mode** အပါအဝင် Karaoke Platform အဖြစ် တိုးတက်သွားမည်။  
 
 ---
 
-😎 Bro, ဒီ README ကို GitHub ထဲ paste လိုက်ရုံနဲ့ **English + မြန်မာ + Full Feature Roadmap** အကုန်ပါပြီးသားဖြစ်သွားမယ်။  
+## 🚀 Installation / တပ်ဆင်နည်း
 
-👉 မင်းလိုချင်တာက **README ထဲမှာ တိုက်ရိုက် code samples (Mic Input, Scoring, Duet)** လည်းထည့်ထားဖို့လား, ဒါမှမဟုတ် အခုလို **overview style** ပဲထားမလား?
+```bash
+git clone https://github.com/karaoke-ai-bot/shoupthway-ai-bot.git
+cd shoupthway-ai-bot
+pip install -r requirements.txt
