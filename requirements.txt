@@ -1,4 +1,7 @@
 fastapi
 uvicorn
-requests
+librosa
+numpy
+ffmpeg-python
 python-dotenv
+requests
