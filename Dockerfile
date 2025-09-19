@@ -1,21 +1,13 @@
-
-# shoupthway-ai-bot
-
-Complex AI Bot Prototype
-# Python base image
 FROM python:3.10-slim
 
-# working directory
 WORKDIR /app
 
-# copy requirements (later we can add requirements.txt)
-COPY requirements.txt requirements.txt
+# ffmpeg install (audio processing အတွက်)
+RUN apt-get update && apt-get install -y ffmpeg && rm -rf /var/lib/apt/lists/*
 
-# install dependencies
+COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# copy app
 COPY . .
 
-# run the app
-CMD ["python", "app/main.py"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
